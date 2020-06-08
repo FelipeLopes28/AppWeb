@@ -9,8 +9,11 @@
     </head>
     <body>
         <div class='main'>
+                      <!-- TITULO -->
             <h1 id='titulo'>Calculadora: Felipe Lopes</h1>
-            <div>
+
+                      <!-- VALORES -->
+              <div>
                 <form name='caixas'>
                     <label class="valor1">Valor1</label>
                     <label class="valor2">Valor2</label>
@@ -18,17 +21,21 @@
                     <input class="caixa1" type="text" name='caixa1'>
                     <input class="caixa2" type="text" name='caixa2'>
                 </form>
+
+                      <!-- OPERAÇÕES -->
                   <td>
                     <input type="button" class='soma' onclick='Soma()' value="+">
                     <input type="button" class='subtracao' onclick='Subtracao()' value="-">
                     <input type="button" class='multiplicacao' onclick='Multiplicacao()' value="x">
                     <input type="button" class='divisao' onclick='Divisao()' value="/">
-                    <input type="button" class='button' onclick='C()' value="C"> 
+                    <input type="button" class='C' onclick='C()' value="C"> 
                   </td>
               </div>
+
+                      <!-- RESULTADO -->
               <div>
-                  <label class="textoResul">Resultado:</label>
-                  <p class="resultado" name='resultado'></p>
+                <label class="textoResul">Resultado:</label>
+                <p class="resultado" name='resultado'></p>
               </div>
         </div>
     </body>
