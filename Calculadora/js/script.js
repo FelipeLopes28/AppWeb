@@ -2,7 +2,7 @@
 function C(){ 
   document.caixas.caixa1.value = "";
   document.caixas.caixa2.value = "";
-  document.resultado.resultado.value = ""; 
+  document.result.resultado.value = "";
 }
 
   // DIVISÃO
